@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- 重置样式 -->
+    <!-- <link rel="stylesheet" href="./css/normalize.css">  -->
+    <link rel="stylesheet" href="./css/task003.css">
+    <link rel="stylesheet" href="./css/font.css">
+</head>
+<body>
+        <header class="masthead">
+            <h1>GTD Tools</h1>
+        </header>
+        <main class="container">
+            <div class="container-left">
+                    <h2>所有任务<span id="total">(<i>0</i>)</span></h2>
+                    <div class="container-content">
+                        <div class="category-list">
+                            <h3>分类列表</h3>
+                            <ul >
+                                <!-- <li>
+                                    <div class="category">
+                                        <i class="icon-folder-open"></i>
+                                        <span class="name">默认分类</span>
+                                        <span class="number">(0)</span>
+                                        <i class="icon-cross1 delete-i"></i>
+                                    </div>
+
+                                    <div class="subclass">
+                                        <div class="sub-category"><i class="icon-folder-o"></i></span><span class="name">task1</span><span class="number">(6)</span><span class="delete"></span></div>
+                                        <div class="sub-category"><i class="icon-folder-o"></i></span><span class="name">task2</span><span class="number">(4)</span></div>
+                                    </div>
+                                </li> -->
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="container-foot">
+                        <div class="add addCG">
+                        <i class="icon-plus"></i>
+                        <span >新增分类</span>
+                        </div>
+                    </div>
+            </div>
+            <div class="container-center">
+                <div class="container-head">
+                   <ul class="list-menu"">
+                       <li class="active" id="all">所有</li>
+                       <li id="unfinished">未完成</li>
+                       <li id="finished">已完成</li>
+                   </ul>
+                </div>
+                <div class="container-content">
+                    <div class="task-list">
+                        <ul>
+                            <!-- <li>
+                                <div class="data">2020-04-25</div>
+                                <div class="wrap">
+                                    <div class="data-task">to-do 1</div>
+                                </div>
+                            </li> -->
+                        </ul>
+                    </div>    
+                </div>
+                <div class="container-foot">
+                    <div class="add addTask">
+                    <i class="icon-plus"></i>
+                    <span >新增任务</span>
+                    </div>
+                </div>
+             </div>
+             <div class="container-detail"></div>
+             <!-- <div class="container-right">
+                <div class="right-head">
+                    <div class="head-title">
+                       <p class="name"></p>
+                    </div>
+                    <div class="head-icon">
+                        <i class="icon-check-circle finish" style="display:none";></i>
+                        <i class="icon-edit edit" style="display:none"></i>
+                    </div>
+                </div>
+                <div class="right-head">
+                   <div class="head-data">
+                    <p></p>
+                   </div>
+               </div>
+               <div class="task-content">
+                <p></p>
+               </div>
+           </div> -->
+             <!-- <div class="container-right container-edit">
+                 <div class="right-head">
+                     <div class="head-title">
+                         任务标题：
+                         <span></span>
+                         <input type="text" class="title-edit" placeholder="在此输入任务标题">  
+                     </div>
+                     <div class="head-icon">
+                         <i class="icon-check-circle"></i>
+                         <i class="icon-edit"></i>
+                     </div>
+                 </div>
+                 <div class="right-head">
+                    <div class="head-data">
+                        任务日期： 
+                        <span></span>
+                        <input type="text" class="date-edit" placeholder="格式：2015-10-01">
+                    </div>
+                </div>
+                <div class="task-content">
+                    <textarea name="" id="content-edit"></textarea>
+                    <button class="btn no">取消</button>
+                    <button class="btn yes">确定</button>
+                </div>
+            </div> -->
+            <!-- <div class="overlay"></div> -->
+            <!-- <div class="box"> 
+                <div class="box-title">
+                    <h3>新增分类</h3>
+                    <div class="box-close icon-cross1"></div>
+                </div>
+                <div class="box-main">
+                    <div class="new-title">
+                        <h3>名称：</h3>
+                        <input type="text">
+                    </div>
+                    <button class="btn2 yes2">确定</button>
+                    <button class="btn2 no2">取消</button>
+
+                </div>
+            </div> -->
+        </main>
+      <script src="./js/util.js"></script>
+      <script src="./js/bulletBox.js"></script>
+      <script src="./js/categories.js"></script>
+      <script src="./js/taskList.js"></script>
+      <script src="./js/taskDetail.js"></script>
+      <script src="./js/main.js"></script>
+    </body>
+</html>
