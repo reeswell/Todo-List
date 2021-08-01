@@ -1,4 +1,4 @@
-项目地址：https://180231.xyz/todo-list/build/index.html
+项目地址：https://180231.xyz/Todo-List/build/
 
 
 
