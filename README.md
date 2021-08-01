@@ -1,6 +1,13 @@
-项目地址：https://180231.xyz/task-management/task003.html
+项目地址：https://180231.xyz/todo-list/build/index.html
 
 
+
+### 启动项目
+
+```
+npm install
+gulp
+```
 
 ### 任务描述
 
@@ -157,4 +164,3 @@ function server() {
 exports.default = series(parallel(clean,js,font, css, html), server,watchFile);
 ```
 
-这样直接在终端输入gulp就会全自动执行
