@@ -12,7 +12,7 @@ gulp
 
 参考设计稿实现一个简单的个人任务管理系统：如下图
 
-![设计稿](http://ww1.sinaimg.cn/large/0073y0I6gy1gg3qfe8jqij30zk0gon2k.jpg)
+![image-20210801115358825](https://cdn.jsdelivr.net/gh/xxydrr/my_pic/img/20210801115406.png)
 
 任务需求描述：
 
